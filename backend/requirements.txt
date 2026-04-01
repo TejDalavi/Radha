@@ -13,3 +13,5 @@ bcrypt
 PyJWT
 python-docx
 python-multipart
+flask
+gunicorn
