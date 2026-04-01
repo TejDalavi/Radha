@@ -1,0 +1,5 @@
+API Key: sk-or-v1-d10ad2...eef6
+LLM STATUS: CONNECTED
+Provider: OpenRouter
+Model: google/gemini-2.0-flash-001
+Response: Hello.

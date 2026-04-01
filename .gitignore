@@ -1,0 +1,46 @@
+# --- Secrets and Local Configuration ---
+.env
+.env.*
+!.env.example
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# --- Node.js ---
+node_modules/
+dist/
+dist-ssr/
+*.local
+public/build/
+.npm
+.eslintcache
+.stylelintcache
+.node_repl_history
+
+# --- Databases ---
+*.db
+*.sqlite3
+
+# --- IDEs and OS ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

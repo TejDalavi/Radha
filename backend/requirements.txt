@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+pydantic
+pydantic-settings
+sqlalchemy
+alembic
+asyncpg
+python-dotenv
+httpx
+uuid
+aiosqlite
+bcrypt
+PyJWT
+python-docx
+python-multipart
