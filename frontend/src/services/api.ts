@@ -1,8 +1,8 @@
 import axios from 'axios';
 
 export const api = axios.create({
-  baseURL: '/api',
-  timeout: 30000, 
+  baseURL: "https://your-backend.onrender.com", // ✅ FIXED
+  timeout: 30000,
   headers: {
     'Content-Type': 'application/json',
   },
@@ -27,9 +27,9 @@ api.interceptors.response.use(
   (response) => response,
   (error) => {
     if (error.code === 'ECONNABORTED') {
-      error.message = 'The request timed out. Please ensure the backend is running and check your connection.';
+      error.message = 'The request timed out. Please check backend connection.';
     } else if (!error.response) {
-      error.message = 'Network error: Cannot reach the backend server. Is it running on port 8000?';
+      error.message = 'Network error: Cannot reach backend.';
     }
     return Promise.reject(error);
   }
