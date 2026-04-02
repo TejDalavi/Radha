@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const api = axios.create({
-  baseURL: "https://your-backend.onrender.com", // ✅ FIXED
+  baseURL: "https://radha-2-74si.onrender.com", // ✅ FIXED
   timeout: 30000,
   headers: {
     'Content-Type': 'application/json',
