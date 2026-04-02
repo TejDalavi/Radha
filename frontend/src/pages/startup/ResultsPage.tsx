@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import { api } from '../../services/api';
 import { useStartupStore } from '../../store/startupStore';
 import { motion } from 'framer-motion';
-import { CheckCircle2, CircleDashed, Loader2, Download } from 'lucide-react';
+import { CheckCircle2, Loader2, Download } from 'lucide-react';
 import { Accordion } from '../../components/ui/Accordion';
 import { JsonRenderer } from '../../components/ui/JsonRenderer';
 
